@@ -5,7 +5,7 @@
 div {
 	width: 300px;
 	border-radius: 10px;
-	background-color: cadetblue;
+	background-color: #2;
 	padding: 10px;
 }
 
@@ -13,16 +13,16 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	width: 200px;
-	background-color: #f1f1f1;
-	border: 1px solid #555;
+	width: 300px;
+	background-color: white;
+	border: 10px;
 }
 
 li a {
 	display: block;
-	color: #000;
 	padding: 8px 16px;
 	text-decoration: none;
+	color: black;
 }
 
 input[type=text], select {
@@ -30,25 +30,24 @@ input[type=text], select {
 	padding: 10px;
 	margin: 30px;
 	display: inline-block;
-	border: 1px solid #8e9e53;
 	border-radius: 4px;
 	
 }
 
 input[type=submit] {
 	width: 100%;
-	background-color: cornflowerblue;
+	background-color: #0066DB;
 	border-radius: 4px;
 	cursor: pointer;
 }
 
 input[type=submit]:hover {
-	background-color: skyblue;
+	background-color: #1;
 }
 
 
 header {
-	background-color: darkslateblue;
+	background-color: #0066DB;
 	padding: 30px;
 	text-align: center;
 	font-size: 35px;
@@ -62,12 +61,12 @@ section {
 }
 
 aside {
-	background-color: cornflowerblue;
+	background-color: #0066DB;
 }
 
 nav {
 	flex: 0.15;
-	background: moccasin;
+	background: #133863;
 	padding: 20px;
 }
 
@@ -77,8 +76,8 @@ nav ul {
 
 article {
 	flex: 2;
-	background-color: cornflowerblue;
-	padding: 50px;
+	background-color: #0066DB;
+	padding: 10px;
 
 }
 
